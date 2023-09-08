@@ -286,3 +286,6 @@ window.onresize = function () {
   home_box7Carousel();
   home_boxPosition();
 }
+
+
+

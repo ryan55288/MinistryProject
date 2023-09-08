@@ -35,7 +35,7 @@ $(function () {
 		$('.imageC').css({ 'display': 'block' });
 		$('.imageB').css({ 'display': 'none' });
 	});
-
+	////////////////////////pj3按鈕///////
 	$('.future03').hover(function () {
 		$('.littleCircle').css({ 'display': 'none' });
 		$('.littleCircle2').css({ 'display': 'block' });
@@ -310,4 +310,21 @@ $(function () {
 			'transition': '0s',
 		});
 	});
+	////////////////////////future按鈕///////
+
+	$(function () {
+		$(".anchor").click(function () {
+			jQuery("html,body").animate({
+				scrollTop: 0
+			}, 1000);
+		});
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 300) {
+				$('.anchor').fadeIn("fast");
+			} else {
+				$('.anchor').stop().fadeOut("fast");
+			}
+		});
+	});
+
 });	
