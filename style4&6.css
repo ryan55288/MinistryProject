@@ -55,12 +55,12 @@
     position: relative;
 }
 
-/* ///////字體顏色浮出//// */
 .button-box .project-btn2 span {
     position: relative;
     z-index: 2;
 }
 
+/* ///////顏色浮出//// */
 .button-box .project-btn2::before {
     content: "";
     background-color: var(--color-7);

@@ -1,0 +1,76 @@
+:root {
+    /* color */
+    --color-1: #381805;
+    --color-2: #FFD75F;
+    --color-3: #F3C10E;
+    --color-4: #4164BF;
+    --color-5: #FFF0C9;
+    --color-6: #FFFCF6;
+    --color-7: #3DB1B9;
+    ;
+}
+
+/* //按鈕樣式 */
+.project-btn2,
+.project-btn {
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--color-1);
+    background-color: #FFEAAD;
+    border-width: 0px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 4px var(--color-1);
+    box-shadow: 0px 2px var(--color-1);
+}
+
+/* //箭頭圖式///// */
+.button-box .project-btn2 span::after,
+.button-box .project-btn span::after {
+    background-image: url(/images/web4/arrow.svg);
+    content: "";
+    width: 25px;
+    height: 5px;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+}
+
+.button-box .project-btn2 span,
+.button-box .project-btn span {
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+    font-size: 22px;
+}
+
+/* //要出現的顏色/// */
+.button-box .project-btn2::before,
+.button-box .project-btn::before {
+    content: "";
+    background-color: var(--color-3);
+    width: 0px;
+    position: absolute;
+    z-index: 1;
+    height: 55px;
+    top: 0px;
+    left: 0px;
+    border-radius: 30px;
+}
+
+.project-btn2,
+.project-btn {
+    position: relative;
+}
+
+.button-box:hover .project-btn::before {
+    width: 160px;
+    transition: 0.1s;
+}
+
+.button-box:hover .project-btn2::before {
+    width: 225px;
+    transition: 0.1s;
+}
