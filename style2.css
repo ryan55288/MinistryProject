@@ -1,0 +1,796 @@
+@charset "utf-8";
+
+/* all */
+.container-1024 {
+    max-width: 1024px;
+    width: 85%;
+    margin: auto;
+}
+
+/* visual */
+.visual2 {
+    background-image: url("images/visual-project-2.png");
+}
+
+/* project */
+.project2-box-1,
+.project2-box-2,
+.project2-box-3,
+.project2-box-4,
+.project2-box-5,
+.project2-box-6,
+.project2-box-7,
+.project2-box-8,
+.project2-box-9,
+.project2-box-10 {
+    margin-top: 80px;
+}
+
+.project2-box-1 {}
+
+.project2-box-1 h3 {
+    text-align: center;
+}
+
+.project2-box-1 .depiction-focus {
+    width: 92%;
+}
+
+.project2-box-2 li {
+    font-weight: bold;
+    margin-top: 24px;
+    border: 2px var(--color-3)solid;
+    font-size: 24px;
+    color: var(--color-1);
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.project2-box-2 li span {
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--color-3);
+}
+
+.project2-box-2 .imageB,
+.project2-box-2 .imageC {
+    display: none;
+}
+
+.project2-box-2 ul {
+    width: 53%;
+}
+
+.project2-box-2>div {
+    width: 44%;
+}
+
+.project2-box-3 {
+    background-size: 100% 90%;
+}
+
+.project2-box-3 {
+    padding-top: 70px;
+}
+
+.project2-box-3 h3 {
+    text-align: center;
+}
+
+.project2-box-3 h3 span {
+    color: var(--color-1);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: var(--color-2)
+}
+
+.project2-box-3 ul {
+    margin: auto;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.project2-box-3 li {
+    width: 435px;
+    padding: 2.5% 3.5%;
+    border: 4px var(--color-3)solid;
+    border-radius: 8px 40px 8px 8px;
+    background-color: #fff;
+}
+
+.project2-box-3 li div {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.project2-box-3 li:not(:last-child) {
+    margin-right: 50px;
+}
+
+.project2-box-3 .scroll {
+    margin-top: 70px;
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.project2-box-5 h3,
+.project2-box-5 span {
+    font-weight: bold;
+    font-size: 52px;
+}
+
+.project2-box-5 span {
+    background-color: var(--color-3);
+}
+
+.project2-box-5 .images-box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.project2-box-5 .images-box div {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-radius: 200px;
+    border: 8px solid #f8f8f8;
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.project2-box-5 div.images-1 {
+    background-size: 100% auto;
+    background-image: url(images/logo-1hover.svg);
+}
+
+.project2-box-5 .images-2 {
+    background-image: url(images/logo-2.svg);
+}
+
+.project2-box-5 .images-3 {
+    background-image: url(images/logo-3.svg);
+}
+
+.project2-box-5 .images-box div:hover {
+    cursor: pointer;
+    border: 8px solid var(--color-2);
+    z-index: 1;
+}
+
+.project2-box-5 div.images-1:hover {
+    background-image: url(images/logo-1.svg);
+}
+
+.project2-box-5 div.images-2:hover {
+    background-image: url(images/logo-2hover.svg);
+}
+
+.project2-box-5 div.images-3:hover {
+    background-image: url(images/logo-3hover.svg);
+}
+
+.images-1 {
+    left: 96px;
+}
+
+.images-2,
+.images-3 {
+    top: 140px;
+}
+
+.images-3 {
+    right: 0;
+}
+
+.project2-box-5 .images-box div img {
+    width: 50%;
+}
+
+.project2-box-5 div.images-1 img {
+    width: 100%;
+}
+
+.project2-box-5 p {
+    color: var(--color-1);
+    font-size: 16px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+.project2-box-6 {
+    align-items: flex-start;
+    position: relative;
+}
+
+.project2-box-6 .images-boxB {
+    width: 50%;
+}
+
+.project2-box-6 .images-boxA {
+    width: 46%;
+}
+
+.project2-box-6 span {
+    position: absolute;
+    font-size: 42px;
+    font-weight: bold;
+    color: var(--color-3);
+    top: 45%;
+    left: 50%;
+}
+
+.project2-box-6 .images-boxA div,
+.project2-box-6 .images-boxB div {
+    margin: auto;
+    color: var(--color-1);
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.project2-box-6 .images-boxA div {
+    width: 70%;
+    margin-top: 40px;
+}
+
+.project2-box-6 .images-boxB div {
+    width: 49%;
+    margin-top: 25px;
+    margin-right: 20%;
+}
+
+.project2-box-7 {
+    align-items: flex-start;
+    padding: 0 80px;
+}
+
+.project2-box-7 .depiction-word {
+    width: 23%;
+}
+
+.project2-box-7 .scroll {
+    width: 74%;
+    height: 550px;
+    overflow-x: auto;
+}
+
+.project2-box-8 .between {
+    margin-top: 50px;
+}
+
+.project2-box-8 .images-1 .imagesA,
+.project2-box-8 .images-2 .imagesA {
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    background-position: center center;
+    background-size: 400px auto;
+    border: 3px solid #F8F8F8;
+}
+
+.project2-box-8 .images-1 .imagesA {
+    background-image: url(images/taipei1.svg);
+}
+
+.project2-box-8 .images-2 .imagesA {
+    background-image: url(images/Hsinchu-City1.svg);
+}
+
+.project2-box-8 .between>div:hover .imagesA {
+    cursor: pointer;
+    border: 3px solid var(--color-3);
+}
+
+.project2-box-8 .images-1:hover .imagesA {
+    background-image: url(images/taipei2.svg);
+}
+
+.project2-box-8 .images-2:hover .imagesA {
+    background-image: url(images/Hsinchu-City2.svg);
+}
+
+.project2-box-8 .imagesB {
+    width: 130px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+    background-image: url();
+    margin-bottom: 150px;
+}
+
+.project2-box-8 .images-1 .imagesB {
+    margin-right: 15px;
+}
+
+.project2-box-8 .images-2 .imagesB {
+    margin-left: 20px;
+}
+
+.project2-box-8 .images:hover .imagesB {
+    background-image: url(images/peopleLevel.svg);
+}
+
+.project2-box-8 .images {
+    width: 49%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.project2-box-8 .images-box,
+.project2-box-8 .images .imagesC {
+    width: 450px;
+}
+
+.project2-box-8 .images .imagesC {
+    display: flex;
+}
+
+.imagesC span {
+    font-weight: bold;
+    color: var(--color-3);
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.project2-box-8 .images .imagesC {
+    font-size: 1rem;
+    color: var(--color-1);
+    height: 180px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px 24px;
+    border-bottom: 3px solid #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.project2-box-8 .images div {
+    font-size: 1rem;
+    color: var(--color-1);
+    font-weight: bold;
+}
+
+.project2-box-8 .images:hover .imagesC {
+    border-bottom: 3px solid var(--color-3);
+}
+
+.project2-box-8 p {
+    margin-top: 30px;
+    color: var(--color-1);
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.project2-box-9 .depiction-word h3 {
+    text-align: center;
+}
+
+.project2-box-9 .compare-word {
+    width: 320px;
+}
+.project2-box-9 .compare-word span{
+    font-weight: bold;
+}
+
+.project2-box-9 .special-title {
+    width: 550px;
+}
+
+.project2-box-10 {
+    margin-bottom: 50px;
+}
+
+.project2-box-10 .container-1440 {
+    margin-top: 50px;
+    background:
+        url(images/Stroke-left.svg),
+        url(images/Stroke-right.svg);
+    background-repeat: no-repeat;
+    background-position:
+        top 0 left 0,
+        top 0 right 0;
+    background-size: auto 100%;
+}
+
+.project2-box-10 .button {
+    display: flex;
+    margin-top: 20px;
+}
+
+.project2-box-10 .button div {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--color-1);
+    background: #F6F6F6;
+    padding: 8px 16px;
+    margin-right: 25px;
+    border-radius: 30px;
+}
+
+.project2-box-10 .button div:hover {
+    background: linear-gradient(to bottom, #FFDF6C, #FFBE17);
+}
+
+.project2-box-10 ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 30px;
+    width: 75%;
+    margin: auto;
+}
+
+.project2-box-10 li {
+    padding: 15% 10% 20%;
+    position: relative;
+    border: 1px solid var(--color-1);
+    border-radius: 16px;
+}
+
+.project2-box-10 li p {
+    color: var(--color-1);
+    font-size: 0.85rem;
+}
+
+.project2-box-10 li h4 {
+    color: var(--color-1);
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+.project2-box-10 li div {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    right: -8%;
+    top: -12%;
+    background: linear-gradient(to bottom, #FFEA7D, #FFCD4E);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    border: 10px solid #FFFFFF;
+}
+
+.project2-box-10 li div img {
+    width: 60%;
+}
+
+
+/* more project */
+
+@media all and (max-width:1440px) {
+
+    .project2-box-5 h3,
+    .project2-box-5 span {
+        font-size: 45px;
+    }
+
+    .project2-box-8 .images-box,
+    .project2-box-8 .images .imagesC {
+        width: 32vw;
+    }
+
+    .project2-box-8 .images-1 .imagesA,
+    .project2-box-8 .images-2 .imagesA {
+        height: 32vw;
+        background-size: 30vw;
+    }
+
+    .project2-box-8 .imagesB {
+        width: 10vw;
+        height: 15vw;
+        margin-bottom: 15vw;
+    }
+
+    .project2-box-10 ul {
+        grid-template-columns: 1fr 1fr;
+        width: 65%;
+    }
+
+    .project2-box-6 span {
+        top: 25%;
+        left: 49%;
+    }
+}
+
+@media all and (max-width:1024px) {
+    .project2-box-2 {
+        flex-direction: column-reverse;
+    }
+
+    .project2-box-2 ul {
+        width: 100%;
+    }
+
+    .project2-box-2>div {
+        width: 65%;
+    }
+
+    .project2-box-5,
+    .project2-box-7 {
+        flex-direction: column;
+    }
+
+    .project2-box-5 .depiction-word {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .project2-box-5 .depiction-word {
+        width: 70%;
+    }
+
+    .project2-box-5 .images-box {
+        margin-top: 5vw;
+    }
+
+    .project2-box-7 {
+        padding: 0px;
+    }
+
+    .project2-box-7 .depiction-word,
+    .project2-box-7 .scroll {
+        margin: auto;
+        width: 90%;
+    }
+
+    .project2-box-7 .scroll {
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    .project2-box-8 .images .imagesC {
+        font-size: 2.2vw;
+        margin-top: 1vw;
+        height: 15vw;
+    }
+
+    .project2-box-8 .images .imagesC div {
+        font-size: 2.2vw;
+    }
+
+    .imagesC span {
+        font-size: 3vw;
+    }
+
+    .project2-box-10 .container-1440 {
+        background-size: auto 0;
+    }
+
+    .project2-box-10 ul {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:768px) {
+    .visual2 {
+        background-image: url("images/visual-project-2m.png");
+    }
+
+    .project2-box-1 h3 {
+        text-align: left;
+    }
+
+    .project2-box-1 .depiction-focus {
+        padding: 20px 20px 40px 30px;
+        width: 85%;
+    }
+
+    .project2-box-2 li {
+        margin-top: 4vw;
+        font-size: 5vw;
+        padding: 3vw;
+    }
+
+    .project2-box-2 li span {
+        margin: 0 1vw;
+        font-size: 7vw;
+    }
+
+    .project2-box-3 li {
+        width: 145px;
+        border: 2px var(--color-3)solid;
+    }
+
+    .project2-box-3 {
+        background-size: 100% 80%;
+    }
+
+    .project2-box-3 li:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .project2-box-3 .scroll {
+        margin-left: 5%;
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .project2-box-3 h3,
+    .project2-box-3 h3 span,
+    .project2-box-4 h3 {
+        line-height: 1.2;
+        letter-spacing: 0rem;
+        font-size: 6.5vw;
+        text-align: left;
+    }
+
+    .project2-box-5 .depiction-word {
+        width: 100%;
+    }
+
+    .project2-box-5 h3,
+    .project2-box-5 span {
+        font-size: 9vw;
+        white-space: nowrap;
+    }
+
+    .project2-box-5 .images-box {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .images-1 {
+        left: 19vw;
+    }
+
+    .images-2,
+    .images-3 {
+        top: 31vw;
+    }
+
+    .project2-box-5 .images-box div {
+        border: 5px solid #f8f8f8;
+    }
+
+    .project2-box-5 .images-box div:hover {
+        border: 5px solid var(--color-3);
+    }
+
+    .project2-box-5 p {
+        font-size: 5vw;
+        bottom: -25px;
+    }
+
+    .project2-box-6 {
+        flex-direction: column;
+    }
+
+    .project2-box-6 .images-boxA,
+    .project2-box-6 .images-boxB {
+        width: 100%;
+    }
+
+    .project2-box-6 .images-boxB {
+        margin-top: 30vw;
+    }
+
+    .project2-box-6 .images-boxB div {
+        width: 70%;
+        margin: auto;
+        margin-top: 5vw;
+    }
+
+    .project2-box-6 span {
+        font-size: 17vw;
+        top: 80vw;
+        left: 36vw;
+    }
+
+    .project2-box-6 .images-boxA div,
+    .project2-box-6 .images-boxB div {
+        width: 70vw;
+        font-size: 4.5vw;
+        margin-top: 6vw;
+    }
+
+    .project2-box-7 {
+        flex-direction: column;
+    }
+
+    .project2-box-7 .depiction-word h3 {
+        line-height: 1.2;
+        letter-spacing: 0rem;
+        font-size: 6.5vw;
+        white-space: nowrap;
+    }
+
+    .project2-box-8 .images {
+        width: 100%;
+    }
+
+    .project2-box-8 .imagesB {
+        margin-bottom: 25vw;
+    }
+
+    .project2-box-8 .images-box,
+    .project2-box-8 .images .imagesC {
+        ont-size: 3vw;
+        width: 72vw;
+    }
+
+    .project2-box-8 .images-1 .imagesA,
+    .project2-box-8 .images-2 .imagesA {
+        height: 72vw;
+        background-size: 68vw;
+    }
+
+    .project2-box-8 .images-1 {
+        margin-bottom: 5vw;
+    }
+
+    .project2-box-8 .images-2 {
+        flex-direction: row-reverse;
+    }
+
+    .project2-box-8 .images-2 .imagesB {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+
+    .project2-box-8 .images .imagesC {
+        font-size: 4.5vw;
+        margin-top: 1vw;
+        height: 22vw;
+    }
+
+    .project2-box-8 .images .imagesC div {
+        font-size: 4.5vw;
+    }
+
+    .imagesC span {
+        font-size: 6vw;
+    }
+
+    .project2-box-9 .special-title {
+        font-size: 6vw;
+        width: 85vw;
+    }
+
+    .project2-box-9 .compare-word {
+        width: 55vw;
+    }
+
+    .project2-box-10 ul {
+        grid-template-columns: 1fr;
+        gap: 10vw 0;
+    }
+
+    .project2-box-10 li h4 {
+        font-size: 6vw;
+    }
+
+    .project2-box-10 li p {
+        font-size: 4.5vw;
+    }
+
+    .project2-box-10 li div {
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .project2-box-10 .button div {
+        font-size: 5vw;
+        padding: 2vw 3vw;
+        margin-right: 3vw;
+    }
+}
+
+@media all and (max-width:320px) {}

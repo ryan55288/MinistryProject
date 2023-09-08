@@ -1,0 +1,11 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M36 16H40V20" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M22.3906 25.65L26.8006 21.24L29.3706 23.45L32.8206 20H35.8806L40.0006 16" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 26V30H19.24C19.9712 30.0026 20.6717 30.2943 21.1887 30.8113C21.7057 31.3283 21.9974 32.0288 22 32.76V36H30" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 35V41" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M3 41V32.76C3.00263 32.0288 3.29427 31.3283 3.8113 30.8113C4.32833 30.2943 5.02881 30.0026 5.76 30H9V26" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 15.94V21.71C18 23.1687 17.4206 24.5677 16.3891 25.5991C15.3577 26.6306 13.9587 27.21 12.5 27.21C11.0413 27.21 9.64238 26.6306 8.61093 25.5991C7.57948 24.5677 7.00002 23.1687 7.00002 21.71V15.94C6.9987 15.5536 7.07384 15.1707 7.22112 14.8134C7.3684 14.4561 7.58491 14.1314 7.85818 13.8582C8.13144 13.5849 8.45607 13.3684 8.81337 13.2211C9.17066 13.0738 9.55356 12.9987 9.94002 13H15.06C15.4465 12.9987 15.8294 13.0738 16.1867 13.2211C16.544 13.3684 16.8686 13.5849 17.1419 13.8582C17.4151 14.1314 17.6316 14.4561 17.7789 14.8134C17.9262 15.1707 18.0013 15.5536 18 15.94Z" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 18H10V20H7" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.1503 30.1201C15.6569 30.668 15.0539 31.106 14.3803 31.4058C13.7067 31.7055 12.9776 31.8603 12.2403 31.8601C10.8694 31.8617 9.55218 31.3269 8.57031 30.3701" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 11V7H45V40H18V35" stroke="#381805" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
