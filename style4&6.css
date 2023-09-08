@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+.visual4 {
+    height:20vw;
+    background-image: url("images/web4/bg-top.png");
+}
+
+.project6-titlebox,
+.project-titlebox {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.project4-box-2 h4,
+.project4-box-1 h4 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* /////////////////////////////填滿程度/////////////////////////////////// */
+.button-box .project-btn span::after,
+.button-box .project-btn2 span::after {
+    content: "";
+    width: 60px;
+    height: 18px;
+    background-image: url(images/web4/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    display: inline-block;
+}
+
+.project4-box-1 .button-box {
+    margin-top: 25px;
+}
+
+.button-box .project-btn span {
+    font-weight: bold;
+}
+
+.button-box:hover .project-btn::before,
+.button-box:hover .project-btn2::before {
+    width: 220px;
+    transition: 0.1s;
+}
+
+/* ///////定位母版//// */
+.button-box .project-btn2 {
+    position: relative;
+}
+
+/* ///////字體顏色浮出//// */
+.button-box .project-btn2 span {
+    position: relative;
+    z-index: 2;
+}
+
+.button-box .project-btn2::before {
+    content: "";
+    background-color: var(--color-7);
+    width: 0px;
+    position: absolute;
+    z-index: 1;
+    height: 65px;
+    top: 1px;
+    left: 0px;
+    border-radius: 30px;
+}
+
+.project4-box-2 h4 {
+    margin-top: 65px;
+}
+
+.project-btn2 {
+    background-color: #fff;
+}
+
+
+/* ///////////////box3////////////////////// */
+.project4-box-3 {
+    background-size: 100% 90%;
+    margin-bottom: 85px;
+}
+
+.project4-box-3 ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.project4-box-3 li {
+    position: relative;
+    width: 350px;
+    padding: 12.5% 2.5% 2%;
+    border: 3px var(--color-1)dashed;
+    border-radius: 10px;
+}
+
+.project4-box-3 li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.project4-box-3 img {
+    position: absolute;
+    top: -41px;
+    right: 20px;
+    width: 90%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.project4-box-3 h3 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--color-1);
+}
+
+.project4-box-3 p {
+    color: var(--color-1);
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.project4-box-3 .button-box {
+    margin-top: 50px;
+
+}
+
+.project4-box-3 span {
+    font-weight: bolder;
+}
+
+/* ////////////////project6////////////////////////// */
+.project6-titlebox {
+    padding-bottom: 0%;
+}
+
+.project6-box-1 {
+    margin-top: 70px;
+}
+
+.project6-box-1 ul li {
+    list-style: none;
+    /* 去除默认的列表样式 */
+    padding: 0;
+    /* 去除默认的内边距 */
+}
+
+.project6-box-1 ol {
+    margin-bottom: 25px;
+}
+
+.project6-box-2 {
+    margin-top: 170px;
+    margin-bottom: 35px;
+}
+
+.project6-box-2 li p {
+    /* text-decoration: underline; */
+}
+
+.project6-box-2 ul li {
+    color: var(--color-1);
+    font-weight: bold;
+    position: relative;
+    /* 让伪元素相对于列表项定位 */
+    padding-left: 20px;
+}
+
+.project6-box-2 ul li::before {
+    content: "";
+    background-image: url(images/web4/fill.svg);
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 10px;
+}
+
+.project6-box-2-between {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project6-box-2 ol {
+    margin-top: 20px;
+}
+
+/* .project6-box-3 {
+    margin-bottom: 110px;
+}
+
+.project6-box-3 li {
+    margin-left: 40px;
+}
+
+.project6-box-3 li p {
+    font-weight: bold;
+    color: var(--color-1);
+}
+
+.project6-box-3 li span {
+    text-decoration: underline;
+} */
+
+
+
+
+
+@media all and (max-width:1440px) {}
+
+@media all and (max-width:1024px) {}
+
+@media all and (max-width:768px) {
+    .visual4 {
+        height: 55vw;
+        background-image: url("images/web4/bg-top2.svg");
+    }
+
+    .project-title {
+        width: 25vw;
+        font-size: 4vw;
+        border-radius: 25vw;
+    }
+
+    .project-word {
+        font-size: 4.8vw;
+        margin-top: 1vw;
+    }
+
+    .project4-box-1 h4 {
+        display: flex;
+        justify-content: center;
+        font-size: 36px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .project4-box-2 h4 {
+        margin-bottom: 85px;
+    }
+
+    .project4-box-3 ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project4-box-3 li {
+        position: relative;
+        width: 40vw;
+        padding: 18% 2.5% 1.5%;
+        border: 3px var(--color-1)dashed;
+        border-radius: 10px;
+        margin-bottom: 15vw;
+    }
+
+    .project4-box-3 h3 {
+        margin-top: 8vw;
+        text-align: center;
+        font-weight: bolder;
+        color: var(--color-1);
+    }
+
+
+    /* 排除最後一個不要 */
+    .project4-box-3 li:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    /* ////////////////project6////////////////////////// */
+    .project6-box-2-between {
+        flex-direction: column;
+        margin-left: 8vw;
+    }
+
+    .project6-box-2-between li {
+        margin-bottom: 50px;
+    }
+
+    .project6-box-2-between span {
+        font-weight: bold;
+    }
+
+    .project6-box-2-between p {
+        font-weight: bold;
+        margin-bottom: 16px;
+    }
+}
+
+@media all and (max-width:320px) {
+    body {
+        min-width: 320px;
+    }
+}
