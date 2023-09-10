@@ -41,7 +41,7 @@ $(function () {
 		$('.littleCircle2').css({ 'display': 'block' });
 		$('.littleCircle3').css({ 'display': 'none' });
 		$('.littleCircle4').css({ 'display': 'none' });
-		$('.circle1').addClass("hover")
+		// $('.circle1').addClass("hover")
 		$('.circle1').css({
 			'background-image': 'url(images/web2-3/circle.svg)',
 			'position': 'absolute',
@@ -311,7 +311,6 @@ $(function () {
 		});
 	});
 	////////////////////////future按鈕///////
-
 	$(function () {
 		$(".anchor").click(function () {
 			jQuery("html,body").animate({
@@ -326,5 +325,18 @@ $(function () {
 			}
 		});
 	});
+	// 公部門/////////////////////////////
+	$('.publicButton').click(function () {
+		$('.public').css({ 'display': 'block' });
+		$('.folk').css({ 'display': 'none' });
+		
+	});
+	$('.folkButton').click(function () {
+		$('.public').css({ 'display': 'none' });
+		$('.folk').css({ 'display': 'block' });
+	});
+
+
+
 
 });	

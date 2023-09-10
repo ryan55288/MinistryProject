@@ -270,11 +270,11 @@
     justify-content: space-between;
 }
 
-/* .project2-box-7 .scroll {
+.project2-box-7 .scroll {
     width: 74%;
     height: 550px;
     overflow-x: auto;
-} */
+}
 
 .project2-box-8 .between {
     margin-top: 50px;
@@ -424,7 +424,7 @@
 
 .project2-box-10 .button {
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .project2-box-10 .button div {
@@ -439,6 +439,10 @@
 
 .project2-box-10 .button div:hover {
     background: linear-gradient(to bottom, #FFDF6C, #FFBE17);
+}
+
+.project2-box-10 .folk {
+    display: none;
 }
 
 .project2-box-10 ul {
@@ -484,9 +488,6 @@
 .project2-box-10 li div img {
     width: 60%;
 }
-
-
-/* more project */
 
 @media all and (max-width:1440px) {
 
@@ -618,7 +619,7 @@
     }
 
     .project2-box-3 li {
-        width: 145px;
+        width: 360px;
         border: 2px var(--color-3)solid;
     }
 
@@ -632,8 +633,15 @@
 
     .project2-box-3 .scroll {
         margin-left: 5%;
-        width: 95%;
+        width: 100%;
         margin-top: 30px;
+    }
+
+    .project2-box-3 .scroll {
+        margin-top: 70px;
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: 20px;
     }
 
     .project2-box-3 h3,
@@ -644,6 +652,7 @@
         font-size: 6.5vw;
         text-align: left;
     }
+
 
     .project2-box-5 .depiction-word {
         width: 100%;
@@ -714,15 +723,20 @@
         margin-top: 6vw;
     }
 
-    .project2-box-7 {
+    .project2-box-7-between {
         flex-direction: column;
     }
 
-    .project2-box-7 .depiction-word h3 {
+    .project2-box-7 .project2-box-7-between h3 {
         line-height: 1.2;
         letter-spacing: 0rem;
-        font-size: 6.5vw;
+        font-size: 5vw;
         white-space: nowrap;
+        margin-bottom: 1vw;
+    }
+
+    .project2-box-7 .project2-box-7-between div {
+        font-size: 3vw;
     }
 
     .project2-box-8 .images {
@@ -823,6 +837,7 @@
     background-repeat: no-repeat;
     z-index: 3;
 }
+
 @-webkit-keyframes pulsejg1 {
     0% {
         -webkit-transform: scale(0.6);
