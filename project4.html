@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link href="all.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
     <link href="style4&6.css" rel="stylesheet" />
     <title>知識庫</title>
 </head>
@@ -64,15 +64,20 @@
             </ul>
         </div>
     </section>
+
+
+    <!-- 登入model -->
     <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header bg-primary text-white">
-                    <h5 class="modal-title" id="del">登入</h5>
+                <div class="bg-light text-dark">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
+                    <div class="d-flex justify-content-center mt-5">
+                        <h5 class="font-weight-bolder" id="del">身分驗證</h5>
+                    </div>
                 </div>
                 <div class="modal-body">
                     <form>
@@ -85,21 +90,22 @@
                             <label for="exampleInputPassword1">密碼</label>
                             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
                         </div>
-                        <div class="form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">記住帳號</label>
+                        <div class="form-check d-flex justify-content-end">
+                            <a href="">忘記密碼</a>
                         </div>
                     </form>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary"><a href="/backstage.html"
-                            class="text-white">登入</a></button>
+                <div class="mb-5">
+                    <div class="d-flex justify-content-center">
+                        <div class="button-box">
+                            <button type="button" class="project-btn3"><span>立即登入</span></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

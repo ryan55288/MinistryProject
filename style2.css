@@ -282,12 +282,24 @@
 }
 
 .project2-box-7 .allLogo::after {
-    content: url(images/web2-2/controlNight.svg);
+    content: url(./images/web2-2/controlMorning.svg);
     position: absolute;
     top: 100px;
-    left: 0;
+    left: 0px;
     z-index: 1;
     /* background-image: url(images/web2-2/littleLogo.svg); */
+}
+
+.project2-box-7 .allLogo.morningDraw::after {
+    content: url(./images/web2-2/controlMorning.svg)
+}
+
+.project2-box-7 .allLogo.afternoonDraw::after {
+    content: url(./images/web2-2/controlafternoon.svg)
+}
+
+.project2-box-7 .allLogo.nightDraw::after {
+    content: url(./images/web2-2/controlNight.svg)
 }
 
 .project2-box-7 .logo2 {
@@ -353,7 +365,9 @@
     border-radius: 20px;
 }
 
-.process div {
+/* ////外圍圈圈///////////////// */
+.process .bigClose,
+.process .bigOpen {
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -365,7 +379,22 @@
     position: relative;
 }
 
-.process div p {
+/* 不亮外圈*/
+.process .bigClose {
+    background-color: #F5F5F5;
+}
+
+.bigOpen {
+    background-color: var(--color-3) !important;
+}
+
+.littlegOpen {
+    background-color: var(--color-2) !important;
+}
+
+/* ////內圈//////////////////// */
+.process .littleClose,
+.process .littleOpen {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -375,6 +404,11 @@
     background-color: var(--color-2);
     text-align: center;
     margin: auto;
+}
+
+/* ///不亮 內圈*/
+.process .littleClose {
+    background-color: #fff;
 }
 
 
@@ -523,6 +557,10 @@
 .project2-box-9 .compare-word span {
     font-weight: bold;
     font-size: 1.75rem;
+}
+
+.project2-box-9 {
+    margin-top: 250px;
 }
 
 .project2-box-9 .special-title {

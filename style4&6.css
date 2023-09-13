@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .visual4 {
-    height:20vw;
+    height: 20vw;
     background-image: url("images/web4/bg-top.png");
 }
 
@@ -21,10 +21,11 @@
     justify-content: center;
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 /* /////////////////////////////填滿程度/////////////////////////////////// */
+
 .button-box .project-btn span::after,
 .button-box .project-btn2 span::after {
     content: "";
@@ -81,7 +82,6 @@
     background-color: #fff;
 }
 
-
 /* ///////////////box3////////////////////// */
 .project4-box-3 {
     background-size: 100% 90%;
@@ -116,10 +116,17 @@
 }
 
 .project4-box-3 h3 {
-    margin-top: 30px;
+    font-size: 24px;
     text-align: center;
     font-weight: bolder;
     color: var(--color-1);
+    white-space:nowrap;
+}
+
+.project4-box-3 li:nth-child(1) p {
+    margin-top: 25px;
+    color: var(--color-1);
+    font-size: 20px;
 }
 
 .project4-box-3 p {

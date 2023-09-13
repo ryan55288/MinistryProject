@@ -657,14 +657,14 @@
 .project3-box-7 li .addressOpen3,
 .project3-box-7 li .addressOpen2,
 .project3-box-7 li .addressOpen1 {
-    margin-left: 20%;
     height: 300px;
+    background-size: 100% 100%;
     background-image: url(./images/web2-3/address-Code1.svg);
     background-repeat: no-repeat;
     transition: 0.3s;
 }
 
-.project3-box-7 li .addressOpen1:hover {
+.project3-box-7 li:nth-child(1):hover .addressOpen1 {
     background-image: url(./images/web2-3/addressChange.svg);
 }
 
@@ -672,7 +672,7 @@
     background-image: url(./images/web2-3/address-Code2.svg);
 }
 
-.project3-box-7 li .addressOpen2:hover {
+.project3-box-7 li:nth-child(2):hover .addressOpen2:hover {
     background-image: url(./images/web2-3/addressChange2.svg);
 }
 
@@ -680,7 +680,7 @@
     background-image: url(./images/web2-3/address-Code3.svg);
 }
 
-.project3-box-7 li .addressOpen3:hover {
+.project3-box-7 li:nth-child(3):hover .addressOpen3:hover {
     background-image: url(./images/web2-3/addressChange3.svg);
 }
 
@@ -743,17 +743,28 @@
     position: relative;
 }
 
-.addressStyle1:hover::before {
-    width: 90px;
+
+.project3-box-7 li:nth-child(1):hover .addressStyle1::before {
+    width: 100%;
     transition: 0.2s;
 }
 
-.addressStyle2:hover::before {
+/* .project3-box-7 li:nth-child(1) .addressStyle1:hover::before {
+    width: 90px;
+    transition: 0.2s;
+} */
+
+/* .addressStyle1:hover::before {
+    width: 90px;
+    transition: 0.2s;
+} */
+
+.project3-box-7 li:nth-child(2):hover .addressStyle2::before {
     width: 225px;
     transition: 0.2s;
 }
 
-.addressStyle3:hover::before {
+.project3-box-7 li:nth-child(3):hover .addressStyle3::before {
     width: 280px;
     transition: 0.2s;
 }
@@ -1154,6 +1165,7 @@
         margin-left: 22%;
         height: 300px;
         background-repeat: no-repeat;
+
         transition: 0.5s;
     }
 
