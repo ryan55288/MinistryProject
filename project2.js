@@ -35,6 +35,142 @@ $(function () {
 		$('.imageC').css({ 'display': 'block' });
 		$('.imageB').css({ 'display': 'none' });
 	});
+	/////////////////////////未來應用區塊新版/////////////////////////////////////////////////
+	// $('.future01').hover(function () {
+	// 	$('.circle4').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-135px',
+	// 		'left': '-125px',
+	// 		'transform': 'rotate(126deg)',
+	// 	});
+	// 	$('.littleCircle3').css({
+	// 		'display': 'block',
+	// 		'transition': '0.5s'
+
+	// 	})
+	// 	$('.littleCircle4').css({
+	// 		'display': 'none',
+	// 		'transition': '0.5s'
+
+	// 	})
+	// 	$('.littleCircle2').css({
+	// 		'display': 'none',
+	// 		'transition': '0.5s'
+
+	// 	})
+	// 	$('.littleCircle1').css({
+	// 		'display': 'none',
+	// 		'transition': '0.5s'
+
+	// 	})
+	// }, function () {
+	// 	$('.circle4').css({
+	// 		'position': 'absolute',
+	// 		'top': '-183px',
+	// 		'left': '-130px',
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'width': '100%',
+	// 		'height': '100%',
+	// 		'background-repeat': 'no-repeat',
+	// 		'transform': 'rotate(196deg)',
+	// 	});
+	// 	$('.littleCircle3').css({
+	// 		'display': 'none',
+	// 		'transition': '0.5s'
+	// 	})
+	// }
+	// )
+	// $('.future02').hover(function () {
+	// 	$('.circle2').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-40px',
+	// 		'left': '-33px',
+	// 		'transform': 'rotate(72deg)',
+	// 	});
+	// 	$('.littleCircle').css({
+	// 		'display': 'block',
+	// 		'transition': '0.5s'
+	// 	})
+	// }, function () {
+	// 	$('.circle2').css({
+	// 		'position': 'absolute',
+	// 		'top': '-25px',
+	// 		'left': '-47px',
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'width': '70%',
+	// 		'height': '70%',
+	// 		'background-repeat': 'no-repeat',
+	// 		'transform': 'rotate(135deg)',
+	// 	});
+	// 	$('.littleCircle').css({
+	// 		'display': 'none',
+	// 		'transition': '0.5s'
+	// 	})
+	// }
+	// )
+	// $('.future03').hover(function () {
+	// 	$('.circle1').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-41px',
+	// 		'left': '75px',
+	// 		'transform': 'rotate(362deg)',
+	// 	});
+	// 	$('.littleCircle2').css({
+	// 		'display': 'block',
+	// 		'transition': '0.5s'
+	// 	})
+	// }, function () {
+	// 	$('.circle1').css({
+	// 		'position': 'absolute',
+	// 		'top': '-10px',
+	// 		'left': '69px',
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'width': '70%',
+	// 		'height': '70%',
+	// 		'background-repeat': 'no-repeat',
+	// 		'transform': 'rotate(73deg)',
+	// 	});
+	// 	$('.littleCircle2').css({
+	// 		'display': 'none',
+	// 		'transition': '0.5s'
+	// 	})
+	// }
+	// )
+	// $('.future04').hover(function () {
+	// 	$('.circle3').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-120px',
+	// 		'left': '120px',
+	// 		'width': '70%',
+	// 		'height': '70%',
+	// 		'transform': 'rotate(305deg)',
+	// 	});
+
+	// 	$('.littleCircle4').css({
+	// 		'display': 'block',
+	// 		'transition': '0.5s'
+	// 	})
+	// }, function () {
+	// 	$('.circle3').css({
+	// 		'position': 'absolute',
+	// 		'top': '-108px',
+	// 		'left': '140px',
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'width': '70%',
+	// 		'height': '70%',
+	// 		'background-repeat': 'no-repeat',
+	// 		'transform': 'rotate(18deg)',
+	// 	});
+	// 	$('.littleCircle4').css({
+	// 		'display': 'none',
+	// 		'transition': '0.5s'
+	// 	})
+	// }
+	// )
 	////////////////////////pj3按鈕///////
 	$('.future03').hover(function () {
 		$('.littleCircle').css({ 'display': 'none' });
@@ -91,21 +227,19 @@ $(function () {
 			'background-color': '#fff',
 			'border': '5px solid #fff',
 			'transition': '0s',
-			'transition': '0s'
 		});
 		$('.img02').css({
 			'background-color': '#fff',
 			'border': '5px solid #fff',
 			'transition': '0s',
-			'transition': '0s'
 		});
 		$('.img04').css({
 			'background-color': '#fff',
 			'border': '5px solid #fff',
 			'transition': '0s',
-			'transition': '0s'
 		});
 	});
+
 	$('.future02').hover(function () {
 		$('.littleCircle').css({ 'display': 'block' });
 		$('.littleCircle2').css({ 'display': 'none' });
@@ -132,6 +266,7 @@ $(function () {
 			'left': '-130px',
 			'transform': 'rotate(196deg)',
 		});
+
 		$('.circle1').css({
 			'background-image': 'url(images/web2-3/circle2.svg)',
 			'position': 'absolute',
@@ -139,6 +274,7 @@ $(function () {
 			'left': '69px',
 			'transform': 'rotate(76deg)',
 		});
+
 		$('.future02').css({
 			'border': '10px solid var(--color-5)',
 		});
@@ -160,24 +296,22 @@ $(function () {
 			'background-color': '#fff',
 			'border': '5px solid #fff',
 			'transition': '0s',
-			'transition': '0s'
 		});
 		$('.img03').css({
 			'background-color': '#fff',
 			'border': '5px solid #fff',
 			'transition': '0s',
-			'transition': '0s'
 		});
 		$('.img04').css({
 			'background-color': '#fff',
 			'border': '5px solid #fff',
 			'transition': '0s',
-			'transition': '0s'
 		});
 	});
+
 	$('.future04').hover(function () {
 		$('.littleCircle').css({ 'display': 'none' });
-		$('.littleCircle2').css({ 'display': 'none	' });
+		$('.littleCircle2').css({ 'display': 'none' });
 		$('.littleCircle3').css({ 'display': 'none' });
 		$('.littleCircle4').css({ 'display': 'block' });
 		$('.circle3').css({
@@ -243,10 +377,11 @@ $(function () {
 			'transition': '0s',
 		});
 	});
+
 	$('.future01').hover(function () {
 		$('.littleCircle').css({ 'display': 'none' });
 		$('.littleCircle2').css({ 'display': 'none' });
-		$('.littleCircle3').css({ 'display': 'block' });
+		$('.littleCircle3').css({ 'display': 'block'});
 		$('.littleCircle4').css({ 'display': 'none' });
 		$('.circle4').css({
 			'background-image': 'url(images/web2-3/circle.svg)',
@@ -310,7 +445,7 @@ $(function () {
 			'transition': '0s',
 		});
 	});
-	////////////////////////future按鈕///////
+	////////////////////////future按鈕////////////
 	$(function () {
 		$(".anchor").click(function () {
 			jQuery("html,body").animate({
@@ -325,16 +460,20 @@ $(function () {
 			}
 		});
 	});
-	// 公部門/////////////////////////////
+	// 公部門///////////////////////////////////
 	$('.publicButton').click(function () {
 		$('.public').css({ 'display': 'block' });
 		$('.folk').css({ 'display': 'none' });
-		
+		$('.publicButton').css({ 'background-color': 'var(--color-3)' });
+		$('.folkButton').css({ 'background-color': '#FFF' });
 	});
 	$('.folkButton').click(function () {
 		$('.public').css({ 'display': 'none' });
 		$('.folk').css({ 'display': 'block' });
+		$('.folkButton').css({ 'background-color': 'var(--color-3)' });
+		$('.publicButton').css({ 'background-color': '#FFF' });
 	});
+	/////////////////////////////////////////
 
 
 

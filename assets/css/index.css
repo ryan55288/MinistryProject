@@ -28,7 +28,7 @@
 /* //箭頭圖式///// */
 .button-box .project-btn2 span::after,
 .button-box .project-btn span::after {
-    background-image: url(/index1/images/web4/arrow.svg);
+    background-image: url(../../images/web4/arrow.svg);
     content: "";
     width: 25px;
     height: 5px;

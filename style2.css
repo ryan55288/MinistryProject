@@ -163,6 +163,7 @@
     cursor: pointer;
     border: 8px solid var(--color-2);
     z-index: 1;
+    transition: 0.7s;
 }
 
 .project2-box-5 div.images-1:hover {
@@ -276,6 +277,128 @@
     overflow-x: auto;
 }
 
+.project2-box-7 .allLogo {
+    position: relative;
+}
+
+.project2-box-7 .allLogo::after {
+    content: url(images/web2-2/controlNight.svg);
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 1;
+    /* background-image: url(images/web2-2/littleLogo.svg); */
+}
+
+.project2-box-7 .logo2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--color-1);
+    position: relative;
+    z-index: 2;
+}
+
+.project2-box-7 .logo3 {
+    color: var(--color-1);
+    font-size: 24px;
+    z-index: 2;
+    position: relative;
+}
+
+.project2-box-7 .allLogo::before {
+    content: "";
+    background-image: url(images/web2-2/littleLogo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    width: 20px;
+    height: 82px;
+    top: 0;
+    left: 0;
+}
+
+.process {
+    width: 45%;
+    /* background-image: url(images/web2-2/controlNight.svg); */
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+    background-position: 50px 100px;
+}
+
+
+.process ul {
+    width: 100%;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+.process li {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+
+.process ul::before {
+    position: absolute;
+    content: "";
+    width: 75%;
+    height: 10px;
+    background-color: #E7E7E7;
+    display: block;
+    top: 62px;
+    left: 75px;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.process div {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: var(--color-3);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.process div p {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background-color: var(--color-2);
+    text-align: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .project2-box-8 .between {
     margin-top: 50px;
 }
@@ -292,11 +415,11 @@
 }
 
 .project2-box-8 .images-1 .imagesA {
-    background-image: url(images/taipei1.svg);
+    background-image: url(./images/web2-2/taipei1.svg);
 }
 
 .project2-box-8 .images-2 .imagesA {
-    background-image: url(images/Hsinchu-City1.svg);
+    background-image: url(./images/web2-2/Hsinchu.svg);
 }
 
 .project2-box-8 .between>div:hover .imagesA {
@@ -305,11 +428,11 @@
 }
 
 .project2-box-8 .images-1:hover .imagesA {
-    background-image: url(images/taipei2.svg);
+    background-image: url(./images/web2-2/taipeiOpen.svg);
 }
 
 .project2-box-8 .images-2:hover .imagesA {
-    background-image: url(images/Hsinchu-City2.svg);
+    background-image: url(./images/web2-2/HsinchuOpen.svg);
 }
 
 .project2-box-8 .imagesB {
@@ -825,7 +948,7 @@
 
 .anchor {
     cursor: pointer;
-    background-image: url(/index1/images/anchor-icon.svg);
+    background-image: url(./images/anchor-icon.svg);
     /* position: absolute; */
     position: fixed;
     border-radius: 50px;

@@ -203,6 +203,8 @@
     width: 35%;
     margin: auto;
     margin-top: 50px;
+    padding-left: 15%;
+    height: 350px;
 }
 
 .project3-box-5 p {
@@ -216,6 +218,13 @@
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+
+.project3-box-5 .project3-box-5-between {
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
+}
+
 
 /* //////////////////////////////////////////////// */
 .project3-box-6 {
@@ -250,6 +259,14 @@
     position: relative;
 }
 
+/* .project3-box-6 .temple.future03 {
+    background-image: url(images/web2-3/circle.svg);
+    position: absolute;
+    top: -41px;
+    left: 79px;
+    transform: rotate(362deg);
+} */
+
 .project3-box-6 .temple .circle1 {
     position: absolute;
     top: -10px;
@@ -259,16 +276,7 @@
     height: 70%;
     background-repeat: no-repeat;
     transform: rotate(76deg);
-    z-index: 2;
 }
-
-/* .project3-box-6 .temple .circle1.hover {
-    background-image: url(images/web2-3/circle.svg);
-    position: absolute;
-    top: -41px;
-    left: 79px;
-    transform: rotate(362deg);
-} */
 
 .project3-box-6 .temple .circle2 {
     background-image: url(images/web2-3/circle2.svg);
@@ -279,29 +287,17 @@
     height: 70%;
     background-repeat: no-repeat;
     transform: rotate(135deg);
-    z-index: 2;
 }
 
 .project3-box-6 .temple .circle3 {
     position: absolute;
-    top: -99px;
-    left: 140px;
-    transform: rotate(18deg);
+    top: -108px;
+    left: 145px;
     background-image: url(images/web2-3/circle2.svg);
     width: 70%;
     height: 70%;
     background-repeat: no-repeat;
-    z-index: 1;
-}
-
-.project3-box-6 .temple .circle3:hover {
-    position: absolute;
-    top: -120px;
-    left: 120px;
-    background-image: url(images/web2-3/circle.svg);
-    width: 70%;
-    height: 70%;
-    transform: rotate(305deg);
+    transform: rotate(18deg);
 }
 
 .project3-box-6 .temple .circle4 {
@@ -314,6 +310,16 @@
     background-repeat: no-repeat;
     transform: rotate(196deg);
 }
+
+/* .project3-box-6 .temple .circle3:hover {
+    position: absolute;
+    top: -120px;
+    left: 120px;
+    background-image: url(images/web2-3/circle.svg);
+    width: 70%;
+    height: 70%;
+    transform: rotate(305deg);
+} */
 
 .project3-box-6 .temple .circle5 {
     position: absolute;
@@ -344,7 +350,8 @@
     height: 10%;
     background-color: #000;
     border-radius: 50% 50%;
-    display: block;
+    display: none;
+    transition: 0.5s;
 }
 
 .project3-box-6 .temple .littleCircle2 {
@@ -356,6 +363,7 @@
     background-color: #000;
     border-radius: 50% 50%;
     display: none;
+    transition: 0.5s;
 }
 
 .project3-box-6 .temple .littleCircle3 {
@@ -366,7 +374,8 @@
     height: 10%;
     background-color: #000;
     border-radius: 50% 50%;
-    display: none;
+    display: block;
+    transition: 0.5s;
 }
 
 .project3-box-6 .temple .littleCircle4 {
@@ -378,6 +387,7 @@
     background-color: #000;
     border-radius: 50% 50%;
     display: none;
+    transition: 0.5s;
 }
 
 .project3-box-6 .temple .circle7-3 {
@@ -410,7 +420,6 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-
 }
 
 .future01 {
@@ -443,6 +452,7 @@
     border: 5px solid var(--color-5);
     padding: 15px;
     overflow: unset;
+    transition: 0.2s
 }
 
 
@@ -452,6 +462,22 @@
     right: 140px;
     width: 276px;
 }
+
+.project3-box-6 .future01:hover,
+.project3-box-6 .future02:hover,
+.project3-box-6 .future03:hover,
+.project3-box-6 .future04:hover {
+    border: 10px solid var(--color-5);
+}
+
+.project3-box-6 .future01:hover img,
+.project3-box-6 .future02:hover img,
+.project3-box-6 .future03:hover img,
+.project3-box-6 .future04:hover img {
+    border: 5px solid var(--color-3);
+    background-color: var(--color-5);
+}
+
 
 /* //////////////////////future02////////////////////////////// */
 
@@ -485,6 +511,7 @@
     border: 5px solid var(--color-5);
     padding: 15px;
     overflow: unset;
+    transition: 0.2s
 }
 
 .project3-box-6 .temple .future02-1 {
@@ -551,6 +578,7 @@
     border: 5px solid var(--color-5);
     padding: 15px;
     overflow: unset;
+    transition: 0.2s
 }
 
 .project3-box-6 .temple .future03-1 {
@@ -593,6 +621,7 @@
     border: 5px solid var(--color-5);
     padding: 15px;
     overflow: unset;
+    transition: 0.2s
 }
 
 .project3-box-6 .temple .future04-1 {
@@ -622,8 +651,37 @@
     padding: 5% 5%;
 }
 
-.project3-box-7 li img {
+/* .project3-box-7 li img {
     width: 75%;
+} */
+.project3-box-7 li .addressOpen3,
+.project3-box-7 li .addressOpen2,
+.project3-box-7 li .addressOpen1 {
+    margin-left: 20%;
+    height: 300px;
+    background-image: url(./images/web2-3/address-Code1.svg);
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+.project3-box-7 li .addressOpen1:hover {
+    background-image: url(./images/web2-3/addressChange.svg);
+}
+
+.project3-box-7 li .addressOpen2 {
+    background-image: url(./images/web2-3/address-Code2.svg);
+}
+
+.project3-box-7 li .addressOpen2:hover {
+    background-image: url(./images/web2-3/addressChange2.svg);
+}
+
+.project3-box-7 li .addressOpen3 {
+    background-image: url(./images/web2-3/address-Code3.svg);
+}
+
+.project3-box-7 li .addressOpen3:hover {
+    background-image: url(./images/web2-3/addressChange3.svg);
 }
 
 .project3-box-7 li div {
@@ -631,18 +689,73 @@
     justify-content: center;
 }
 
-.project3-box-7 li p {
+.project3-box-7 li .addressStyle3,
+.project3-box-7 li .addressStyle2,
+.project3-box-7 li .addressStyle1 {
     color: var(--color-1);
     font-size: 42px;
-    text-align: center;
+    font-weight: bold;
+    width: 100px;
+    margin: auto;
+}
+
+.project3-box-7 li .addressStyle2 {
+    width: 67%;
+}
+
+.project3-box-7 li .addressStyle3 {
+    width: 300px;
+}
+
+.project3-box-7 li .addressStyle3 span,
+.project3-box-7 li .addressStyle2 span,
+.project3-box-7 li .addressStyle1 span {
+    font-size: 42px;
     font-weight: bold;
 }
 
-.project3-box-7 li .ninety {
-    color: var(--color-1);
-    background-color: var(--color-2);
-    font-size: 42px;
+.addressStyle3 span,
+.addressStyle2 span,
+.addressStyle1 span {
     font-weight: bold;
+    position: relative;
+    z-index: 2;
+    font-size: 22px;
+}
+
+/* //要出現的顏色/// */
+.addressStyle3::before,
+.addressStyle2::before,
+.addressStyle1::before {
+    content: "";
+    z-index: 1;
+    background-color: var(--color-3);
+    width: 0px;
+    position: absolute;
+    height: 55px;
+    top: 0px;
+    left: 0px;
+}
+
+.addressStyle3,
+.addressStyle2,
+.addressStyle1 {
+    position: relative;
+}
+
+.addressStyle1:hover::before {
+    width: 90px;
+    transition: 0.2s;
+}
+
+.addressStyle2:hover::before {
+    width: 225px;
+    transition: 0.2s;
+}
+
+.addressStyle3:hover::before {
+    width: 280px;
+    transition: 0.2s;
 }
 
 .project3-box-7 li h4 {
@@ -650,7 +763,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 24px;
-    margin-bottom: 15%;
+    margin-bottom: 7%;
 }
 
 .project-box-9 .compare-word div span {
@@ -671,7 +784,6 @@
 }
 
 /* ////////////////////////////////////////////////////////////////////////// */
-/* web2-2class設定 */
 .compare-word-2 span {
     font-size: 30px;
     color: var(--color-1);
@@ -991,6 +1103,7 @@
     .future03 .img03:hover,
     .future04 .img04:hover {
         border: 5px solid var(--color-3);
+        transition: 1s
     }
 
     .future02,
@@ -1000,6 +1113,11 @@
         width: 100%;
         flex-direction: row;
         padding: 0px 40px;
+    }
+
+    .littleCircle {
+        display: block;
+        transition: 0.5s
     }
 
     .future01,
@@ -1028,6 +1146,15 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .project3-box-7 li .addressOpen3,
+    .project3-box-7 li .addressOpen2,
+    .project3-box-7 li .addressOpen1 {
+        margin-left: 22%;
+        height: 300px;
+        background-repeat: no-repeat;
+        transition: 0.5s;
     }
 
     .project3-box-7 li {
