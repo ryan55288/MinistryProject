@@ -25,8 +25,6 @@
     margin-top: 80px;
 }
 
-.project2-box-1 {}
-
 .project2-box-1 h3 {
     text-align: center;
 }
@@ -78,15 +76,49 @@
 
 .project2-box-3 h3 {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.project2-box-3 .cityStyle h3 {
+    position: relative;
+    cursor: pointer;
 }
 
 .project2-box-3 h3 span {
+    position: relative;
+    z-index: 2;
     color: var(--color-1);
     font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 10px;
-    background-color: var(--color-2)
 }
+
+.project2-box-3 .cityStyle h3::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: var(--color-3);
+    width: 0px;
+    height: 50px;
+    top: 0;
+    transition: 0.8s;
+}
+
+.project2-box-3 .cityStyle:hover h3::before {
+    width: 220px;
+    transition: 0.7s;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .project2-box-3 ul {
     margin: auto;
@@ -106,7 +138,6 @@
     text-align: center;
     font-weight: bold;
 }
-
 
 .project2-box-3 li:not(:last-child) {
     margin-right: 50px;
@@ -250,34 +281,82 @@
     margin-right: 20%;
 }
 
+/* ////////////////////box7////////////////////// */
+.project2-box-71 {
+    margin-top: 170px;
+    margin-bottom: 130px;
+    display: flex;
+}
+
+.project2-box-71 .left-width {
+    max-width: 30%;
+    margin-right: 30px;
+}
+
+.project2-box-71 .lright-width {
+    max-width: 50%;
+}
+
+.project2-box-71 .right-width .fake {
+    position: relative;
+    margin-left: 40px;
+}
+
+.project2-box-7 .right-width .fake::before,
+.project2-box-71 .right-width .fake::before {
+    background-image: url(./images/web2-2/littleLogo.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    /*絕對定位*/
+    content: "";
+    /*沒有加這段就不會產生偽元素*/
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: -40px;
+}
+
+.project2-box-71 h3 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--color-1);
+}
+
+.project2-box-7,
+.project2-box-71 p {
+    font-size: 20px;
+    color: var(--color-1);
+}
+
+.project2-box-7,
 .project2-box-7 {
     margin-top: 165px;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     padding: 0 80px;
     margin-bottom: 120px;
 }
 
-.project2-box-7 .depiction-word {
-    margin-left: 5%;
-    width: 25%;
-}
-
-.project2-box-7 .draw {
-    width: 65%;
-}
-
 .project2-box-7-between {
     display: flex;
-    justify-content: space-between;
 }
 
-.project2-box-7 .scroll {
+.project2-box-7 .left-width {
+    max-width: 35%;
+}
+
+.project2-box-7 .right-width {
+    max-width: 70%;
+    margin-left: 5%;
+}
+
+
+/* .project2-box-7 .scroll {
     width: 74%;
     height: 550px;
     overflow-x: auto;
-}
+} */
 
-.project2-box-7 .allLogo {
+/* .project2-box-7 .allLogo {
     position: relative;
 }
 
@@ -287,8 +366,8 @@
     top: 100px;
     left: 0px;
     z-index: 1;
-    /* background-image: url(images/web2-2/littleLogo.svg); */
-}
+} */
+/* background-image: url(images/web2-2/littleLogo.svg); */
 
 .project2-box-7 .allLogo.morningDraw::after {
     content: url(./images/web2-2/controlMorning.svg)
@@ -814,7 +893,6 @@
         text-align: left;
     }
 
-
     .project2-box-5 .depiction-word {
         width: 100%;
     }
@@ -882,6 +960,14 @@
         width: 70vw;
         font-size: 4.5vw;
         margin-top: 6vw;
+    }
+
+    .project2-box-71 {
+        flex-direction: column;
+    }
+
+    .project2-box-71 .left-width {
+        max-width: 100%;
     }
 
     .project2-box-7-between {
@@ -981,8 +1067,13 @@
     }
 }
 
-@media all and (max-width:320px) {}
+@media all and (max-width:375px) {
+    .project2-box-3 .cityStyle:hover h3::before {
+        width: 1080x;
+    }
+}
 
+@media all and (max-width:320px) {}
 
 .anchor {
     cursor: pointer;
