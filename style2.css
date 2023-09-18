@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 /* all */
 .container-1024 {
     max-width: 1024px;
@@ -108,17 +109,6 @@
     width: 220px;
     transition: 0.7s;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .project2-box-3 ul {
     margin: auto;
@@ -286,6 +276,7 @@
     margin-top: 170px;
     margin-bottom: 130px;
     display: flex;
+    justify-content: center;
 }
 
 .project2-box-71 .left-width {
@@ -293,8 +284,8 @@
     margin-right: 30px;
 }
 
-.project2-box-71 .lright-width {
-    max-width: 50%;
+.project2-box-71 .right-width {
+    max-width: 70%;
 }
 
 .project2-box-71 .right-width .fake {
@@ -302,14 +293,11 @@
     margin-left: 40px;
 }
 
-.project2-box-7 .right-width .fake::before,
 .project2-box-71 .right-width .fake::before {
     background-image: url(./images/web2-2/littleLogo.svg);
     background-repeat: no-repeat;
     position: absolute;
-    /*絕對定位*/
     content: "";
-    /*沒有加這段就不會產生偽元素*/
     width: 100px;
     height: 100px;
     top: 0;
@@ -1069,7 +1057,7 @@
 
 @media all and (max-width:375px) {
     .project2-box-3 .cityStyle:hover h3::before {
-        width: 1080x;
+        width: 108px;
     }
 }
 
