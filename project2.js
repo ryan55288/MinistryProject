@@ -577,6 +577,14 @@ $(function () {
 	$(document).ready(function () {
 		//中午
 		$(".afternoon").click(function () {
+			$(".processImg").addClass("processImg2");
+			$(".project2-box-7-between .processImg").removeClass("processImg3");
+			$(".project2-box-7-between .processImg").removeClass("processImg");
+
+
+
+
+
 			$(".afternoon .bigClose").addClass("bigOpen");
 			$(".afternoon .littleClose").addClass("littleOpen");
 			$(".afternoon .bigClose").removeClass("bigClose");
@@ -585,7 +593,6 @@ $(function () {
 			$(".allLogo").removeClass("nightDraw");
 			$(".allLogo").removeClass("morningDraw");
 			$(".allLogo").addClass("afternoonDraw");
-
 
 			$(".morning .bigOpen").addClass("bigClose");
 			$(".morning .littleOpen").addClass("littleClose");
@@ -597,6 +604,9 @@ $(function () {
 		});
 		//晚上
 		$(".night").click(function () {
+			$(".processImg").addClass("processImg3");
+
+
 			$(".night .bigClose").addClass("bigOpen");
 			$(".night .littleClose").addClass("littleOpen");
 			$(".night .bigClose").removeClass("bigClose");
@@ -616,6 +626,10 @@ $(function () {
 		});
 		//早上
 		$(".morning").click(function () {
+			$(".processImg").addClass("processImg");
+
+
+
 			$(".morning .bigClose").addClass("bigOpen");
 			$(".morning .littleClose").addClass("littleOpen");
 			$(".morning .bigClose").removeClass("bigClose");
@@ -634,4 +648,5 @@ $(function () {
 			$(".night .bigOpen").removeClass("bigOpen");
 		});
 	});
+
 });
