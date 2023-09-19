@@ -86,308 +86,82 @@ $(function () {
 		});
 	});
 	/////////////////////////未來應用區塊新版/////////////////////////////////////////////////
-	// $('.future01').hover(function () {
-	// 	$('.circle4').css({
-	// 		'background-image': 'url(images/web2-3/circle.svg)',
-	// 		'position': 'absolute',
-	// 		'top': '-135px',
-	// 		'left': '-125px',
-	// 		'transform': 'rotate(126deg)',
-	// 	});
-	// 	$('.littleCircle3').css({
-	// 		'display': 'block',
-	// 		'transition': '0.5s'
-
-	// 	})
-	// 	$('.littleCircle4').css({
-	// 		'display': 'none',
-	// 		'transition': '0.5s'
-
-	// 	})
-	// 	$('.littleCircle2').css({
-	// 		'display': 'none',
-	// 		'transition': '0.5s'
-
-	// 	})
-	// 	$('.littleCircle1').css({
-	// 		'display': 'none',
-	// 		'transition': '0.5s'
-
-	// 	})
-	// }, function () {
-	// 	$('.circle4').css({
-	// 		'position': 'absolute',
-	// 		'top': '-183px',
-	// 		'left': '-130px',
-	// 		'background-image': 'url(images/web2-3/circle2.svg)',
-	// 		'width': '100%',
-	// 		'height': '100%',
-	// 		'background-repeat': 'no-repeat',
-	// 		'transform': 'rotate(196deg)',
-	// 	});
-	// 	$('.littleCircle3').css({
-	// 		'display': 'none',
-	// 		'transition': '0.5s'
-	// 	})
-	// }
-	// )
-	// $('.future02').hover(function () {
-	// 	$('.circle2').css({
-	// 		'background-image': 'url(images/web2-3/circle.svg)',
-	// 		'position': 'absolute',
-	// 		'top': '-40px',
-	// 		'left': '-33px',
-	// 		'transform': 'rotate(72deg)',
-	// 	});
-	// 	$('.littleCircle').css({
-	// 		'display': 'block',
-	// 		'transition': '0.5s'
-	// 	})
-	// }, function () {
-	// 	$('.circle2').css({
-	// 		'position': 'absolute',
-	// 		'top': '-25px',
-	// 		'left': '-47px',
-	// 		'background-image': 'url(images/web2-3/circle2.svg)',
-	// 		'width': '70%',
-	// 		'height': '70%',
-	// 		'background-repeat': 'no-repeat',
-	// 		'transform': 'rotate(135deg)',
-	// 	});
-	// 	$('.littleCircle').css({
-	// 		'display': 'none',
-	// 		'transition': '0.5s'
-	// 	})
-	// }
-	// )
-	// $('.future03').hover(function () {
-	// 	$('.circle1').css({
-	// 		'background-image': 'url(images/web2-3/circle.svg)',
-	// 		'position': 'absolute',
-	// 		'top': '-41px',
-	// 		'left': '75px',
-	// 		'transform': 'rotate(362deg)',
-	// 	});
-	// 	$('.littleCircle2').css({
-	// 		'display': 'block',
-	// 		'transition': '0.5s'
-	// 	})
-	// }, function () {
-	// 	$('.circle1').css({
-	// 		'position': 'absolute',
-	// 		'top': '-10px',
-	// 		'left': '69px',
-	// 		'background-image': 'url(images/web2-3/circle2.svg)',
-	// 		'width': '70%',
-	// 		'height': '70%',
-	// 		'background-repeat': 'no-repeat',
-	// 		'transform': 'rotate(73deg)',
-	// 	});
-	// 	$('.littleCircle2').css({
-	// 		'display': 'none',
-	// 		'transition': '0.5s'
-	// 	})
-	// }
-	// )
-	// $('.future04').hover(function () {
-	// 	$('.circle3').css({
-	// 		'background-image': 'url(images/web2-3/circle.svg)',
-	// 		'position': 'absolute',
-	// 		'top': '-120px',
-	// 		'left': '120px',
-	// 		'width': '70%',
-	// 		'height': '70%',
-	// 		'transform': 'rotate(305deg)',
-	// 	});
-
-	// 	$('.littleCircle4').css({
-	// 		'display': 'block',
-	// 		'transition': '0.5s'
-	// 	})
-	// }, function () {
-	// 	$('.circle3').css({
-	// 		'position': 'absolute',
-	// 		'top': '-108px',
-	// 		'left': '140px',
-	// 		'background-image': 'url(images/web2-3/circle2.svg)',
-	// 		'width': '70%',
-	// 		'height': '70%',
-	// 		'background-repeat': 'no-repeat',
-	// 		'transform': 'rotate(18deg)',
-	// 	});
-	// 	$('.littleCircle4').css({
-	// 		'display': 'none',
-	// 		'transition': '0.5s'
-	// 	})
-	// }
-	// )
-	////////////////////////pj3按鈕///////
+	$('.future01').hover(function () {
+		$('.circle4').css({
+			'background-image': 'url(images/web2-3/circle.svg)',
+			'position': 'absolute',
+			'top': '-135px',
+			'left': '-125px',
+			'transform': 'rotate(126deg)',
+		});
+    $('.littleCircle3').css({
+      'top': '-74px',
+      'left': '31px'  
+    })
+	}, function () {
+		$('.circle4').css({
+			'position': 'absolute',
+			'top': '-183px',
+			'left': '-130px',
+			'background-image': 'url(images/web2-3/circle2.svg)',
+			'width': '100%',
+			'height': '100%',
+			'background-repeat': 'no-repeat',
+			'transform': 'rotate(196deg)',
+		});
+	}
+	)
+	$('.future02').hover(function () {
+		$('.circle2').css({
+			'background-image': 'url(images/web2-3/circle.svg)',
+			'position': 'absolute',
+			'top': '-40px',
+			'left': '-33px',
+			'transform': 'rotate(72deg)',
+		});
+    $('.littleCircle3').css({
+      'top': '-37px',
+      'left': '50px'
+    })
+	}, function () {
+		$('.circle2').css({
+			'position': 'absolute',
+			'top': '-25px',
+			'left': '-47px',
+			'background-image': 'url(images/web2-3/circle2.svg)',
+			'width': '70%',
+			'height': '70%',
+			'background-repeat': 'no-repeat',
+			'transform': 'rotate(135deg)',
+		});
+	}
+	)
 	$('.future03').hover(function () {
-		$('.littleCircle').css({
-			'display': 'none'
-		});
-		$('.littleCircle2').css({
-			'display': 'block'
-		});
-		$('.littleCircle3').css({
-			'display': 'none'
-		});
-		$('.littleCircle4').css({
-			'display': 'none'
-		});
-		// $('.circle1').addClass("hover")
 		$('.circle1').css({
 			'background-image': 'url(images/web2-3/circle.svg)',
 			'position': 'absolute',
 			'top': '-41px',
-			'left': '79px',
+			'left': '75px',
 			'transform': 'rotate(362deg)',
 		});
-		$('.circle2').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-25px',
-			'left': '-47px',
-			'transform': 'rotate(135deg)',
-		});
-		$('.circle3').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-99px',
-			'left': '140px',
-			'transform': 'rotate(18deg)',
-		});
-		$('.circle4').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-183px',
-			'left': '-130px',
-			'transform': 'rotate(196deg)',
-		});
-		$('.future03').css({
-			'border': '10px solid var(--color-5)',
-		});
-		$('.future01').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future02').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future04').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.img03').css({
-			'background-color': 'var(--color-5)',
-			'border': '5px solid var(--color-3)',
-			'transition': '0.2s'
-		});
-		$('.img01').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img02').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img04').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-	});
-
-	$('.future02').hover(function () {
-		$('.littleCircle').css({
-			'display': 'block'
-		});
-		$('.littleCircle2').css({
-			'display': 'none'
-		});
-		$('.littleCircle3').css({
-			'display': 'none'
-		});
-		$('.littleCircle4').css({
-			'display': 'none'
-		});
-		$('.circle2').css({
-			'background-image': 'url(images/web2-3/circle.svg)',
-			'position': 'absolute',
-			'top': '-45px',
-			'left': '-35px',
-			'transform': 'rotate(72deg)',
-		});
-		$('.circle3').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-99px',
-			'left': '140px',
-			'transform': 'rotate(18deg)',
-		});
-		$('.circle4').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-183px',
-			'left': '-130px',
-			'transform': 'rotate(196deg)',
-		});
-
+    $('.littleCircle3').css({
+      'top': '-37px',
+      'left': '90px'  
+    })
+	}, function () {
 		$('.circle1').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
 			'position': 'absolute',
 			'top': '-10px',
 			'left': '69px',
-			'transform': 'rotate(76deg)',
+			'background-image': 'url(images/web2-3/circle2.svg)',
+			'width': '70%',
+			'height': '70%',
+			'background-repeat': 'no-repeat',
+			'transform': 'rotate(73deg)',
 		});
-
-		$('.future02').css({
-			'border': '10px solid var(--color-5)',
-		});
-		$('.future01').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future03').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future04').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.img02').css({
-			'background-color': 'var(--color-5)',
-			'border': '5px solid var(--color-3)',
-			'transition': '0.2s'
-		});
-		$('.img01').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img03').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img04').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-	});
-
+	}
+	)
 	$('.future04').hover(function () {
-		$('.littleCircle').css({
-			'display': 'none'
-		});
-		$('.littleCircle2').css({
-			'display': 'none'
-		});
-		$('.littleCircle3').css({
-			'display': 'none'
-		});
-		$('.littleCircle4').css({
-			'display': 'block'
-		});
 		$('.circle3').css({
 			'background-image': 'url(images/web2-3/circle.svg)',
 			'position': 'absolute',
@@ -397,136 +171,329 @@ $(function () {
 			'height': '70%',
 			'transform': 'rotate(305deg)',
 		});
-		$('.circle4').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-183px',
-			'left': '-130px',
-			'transform': 'rotate(196deg)',
-		});
-		$('.circle2').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-25px',
-			'left': '-47px',
-			'transform': 'rotate(135deg)',
-		});
-		$('.circle1').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-10px',
-			'left': '69px',
-			'transform': 'rotate(76deg)',
-		});
-		$('.future04').css({
-			'border': '10px solid var(--color-5)',
-		});
-		$('.future01').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future02').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future03').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.img04').css({
-			'background-color': 'var(--color-5)',
-			'border': '5px solid var(--color-3)',
-			'transition': '0.2s'
-		});
-		$('.img01').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img02').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img03').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-	});
-
-	$('.future01').hover(function () {
-		$('.littleCircle').css({
-			'display': 'none'
-		});
-		$('.littleCircle2').css({
-			'display': 'none'
-		});
-		$('.littleCircle3').css({
-			'display': 'block'
-		});
-		$('.littleCircle4').css({
-			'display': 'none'
-		});
-		$('.circle4').css({
-			'background-image': 'url(images/web2-3/circle.svg)',
-			'position': 'absolute',
-			'top': '-135px',
-			'left': '-125px',
-			'transform': 'rotate(126deg)',
-		});
+    $('.littleCircle3').css({
+      'top': '-74px',
+      'left': '105px'  
+    })
+	}, function () {
 		$('.circle3').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
 			'position': 'absolute',
-			'top': '-99px',
+			'top': '-108px',
 			'left': '140px',
+			'background-image': 'url(images/web2-3/circle2.svg)',
+			'width': '70%',
+			'height': '70%',
+			'background-repeat': 'no-repeat',
 			'transform': 'rotate(18deg)',
 		});
-		$('.circle2').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-25px',
-			'left': '-47px',
-			'transform': 'rotate(135deg)',
-		});
-		$('.circle1').css({
-			'background-image': 'url(images/web2-3/circle2.svg)',
-			'position': 'absolute',
-			'top': '-10px',
-			'left': '69px',
-			'transform': 'rotate(76deg)',
-			'transition': '0s',
-		});
-		$('.future04').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future01').css({
-			'border': '10px solid var(--color-5)',
-		});
-		$('.future02').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.future03').css({
-			'border': '0px solid var(--color-5)',
-		});
-		$('.img01').css({
-			'background-color': 'var(--color-5)',
-			'border': '5px solid var(--color-3)',
-			'transition': '0.2s'
-		});
-		$('.img02').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img03').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-		$('.img04').css({
-			'background-color': '#fff',
-			'border': '5px solid #fff',
-			'transition': '0s',
-		});
-	});
+	}
+	)
+	////////////////////////pj3按鈕///////
+	// $('.future03').hover(function () {
+	// 	$('.littleCircle').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle2').css({
+	// 		'display': 'block'
+	// 	});
+	// 	$('.littleCircle3').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle4').css({
+	// 		'display': 'none'
+	// 	});
+	// 	// $('.circle1').addClass("hover")
+	// 	$('.circle1').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-41px',
+	// 		'left': '79px',
+	// 		'transform': 'rotate(362deg)',
+	// 	});
+	// 	$('.circle2').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-25px',
+	// 		'left': '-47px',
+	// 		'transform': 'rotate(135deg)',
+	// 	});
+	// 	$('.circle3').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-99px',
+	// 		'left': '140px',
+	// 		'transform': 'rotate(18deg)',
+	// 	});
+	// 	$('.circle4').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-183px',
+	// 		'left': '-130px',
+	// 		'transform': 'rotate(196deg)',
+	// 	});
+	// 	$('.future03').css({
+	// 		'border': '10px solid var(--color-5)',
+	// 	});
+	// 	$('.future01').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future02').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future04').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.img03').css({
+	// 		'background-color': 'var(--color-5)',
+	// 		'border': '5px solid var(--color-3)',
+	// 		'transition': '0.2s'
+	// 	});
+	// 	$('.img01').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img02').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img04').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// });
+
+	// $('.future02').hover(function () {
+	// 	$('.littleCircle').css({
+	// 		'display': 'block'
+	// 	});
+	// 	$('.littleCircle2').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle3').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle4').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.circle2').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-45px',
+	// 		'left': '-35px',
+	// 		'transform': 'rotate(72deg)',
+	// 	});
+	// 	$('.circle3').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-99px',
+	// 		'left': '140px',
+	// 		'transform': 'rotate(18deg)',
+	// 	});
+	// 	$('.circle4').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-183px',
+	// 		'left': '-130px',
+	// 		'transform': 'rotate(196deg)',
+	// 	});
+
+	// 	$('.circle1').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-10px',
+	// 		'left': '69px',
+	// 		'transform': 'rotate(76deg)',
+	// 	});
+
+	// 	$('.future02').css({
+	// 		'border': '10px solid var(--color-5)',
+	// 	});
+	// 	$('.future01').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future03').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future04').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.img02').css({
+	// 		'background-color': 'var(--color-5)',
+	// 		'border': '5px solid var(--color-3)',
+	// 		'transition': '0.2s'
+	// 	});
+	// 	$('.img01').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img03').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img04').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// });
+
+	// $('.future04').hover(function () {
+	// 	$('.littleCircle').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle2').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle3').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle4').css({
+	// 		'display': 'block'
+	// 	});
+	// 	$('.circle3').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-120px',
+	// 		'left': '120px',
+	// 		'width': '70%',
+	// 		'height': '70%',
+	// 		'transform': 'rotate(305deg)',
+	// 	});
+	// 	$('.circle4').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-183px',
+	// 		'left': '-130px',
+	// 		'transform': 'rotate(196deg)',
+	// 	});
+	// 	$('.circle2').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-25px',
+	// 		'left': '-47px',
+	// 		'transform': 'rotate(135deg)',
+	// 	});
+	// 	$('.circle1').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-10px',
+	// 		'left': '69px',
+	// 		'transform': 'rotate(76deg)',
+	// 	});
+	// 	$('.future04').css({
+	// 		'border': '10px solid var(--color-5)',
+	// 	});
+	// 	$('.future01').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future02').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future03').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.img04').css({
+	// 		'background-color': 'var(--color-5)',
+	// 		'border': '5px solid var(--color-3)',
+	// 		'transition': '0.2s'
+	// 	});
+	// 	$('.img01').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img02').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img03').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// });
+
+	// $('.future01').hover(function () {
+	// 	$('.littleCircle').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle2').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.littleCircle3').css({
+	// 		'display': 'block'
+	// 	});
+	// 	$('.littleCircle4').css({
+	// 		'display': 'none'
+	// 	});
+	// 	$('.circle4').css({
+	// 		'background-image': 'url(images/web2-3/circle.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-135px',
+	// 		'left': '-125px',
+	// 		'transform': 'rotate(126deg)',
+	// 	});
+	// 	$('.circle3').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-99px',
+	// 		'left': '140px',
+	// 		'transform': 'rotate(18deg)',
+	// 	});
+	// 	$('.circle2').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-25px',
+	// 		'left': '-47px',
+	// 		'transform': 'rotate(135deg)',
+	// 	});
+	// 	$('.circle1').css({
+	// 		'background-image': 'url(images/web2-3/circle2.svg)',
+	// 		'position': 'absolute',
+	// 		'top': '-10px',
+	// 		'left': '69px',
+	// 		'transform': 'rotate(76deg)',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.future04').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future01').css({
+	// 		'border': '10px solid var(--color-5)',
+	// 	});
+	// 	$('.future02').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.future03').css({
+	// 		'border': '0px solid var(--color-5)',
+	// 	});
+	// 	$('.img01').css({
+	// 		'background-color': 'var(--color-5)',
+	// 		'border': '5px solid var(--color-3)',
+	// 		'transition': '0.2s'
+	// 	});
+	// 	$('.img02').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img03').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// 	$('.img04').css({
+	// 		'background-color': '#fff',
+	// 		'border': '5px solid #fff',
+	// 		'transition': '0s',
+	// 	});
+	// });
 	////////////////////////future按鈕////////////
 	$(function () {
 		$(".anchor").click(function () {
