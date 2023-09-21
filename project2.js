@@ -543,11 +543,59 @@ $(function () {
 	////////////////特定區域操作////////////////////////
 	$(document).ready(function () {
 		$(".process-circle2").click(function () {
-			$(".process-processImgA").css({
-				'background-image': 'url(./images/web2-2/controlafternoon.svg)',
+			$(".process-circle").css({
+				'background-color': '#ECECE7',
 			});
+			$(".process-circle2").css({
+				'background-color': 'var(--color-3)',
+			});
+			$(".process-circle3").css({
+				'background-color': '#ECECE7',
+			});
+			$(".processImgA").css({
+				'background-image': 'url(./images/web2-2/afternoon.png)',
+			});
+		});
+		$(".process-circle3").click(function () {
+			$(".process-circle").css({
+				'background-color': '#ECECE7',
+			});
+			$(".process-circle2").css({
+				'background-color': '#ECECE7',
+			});
+			$(".process-circle3").css({
+				'background-color': 'var(--color-3)'
+			});
+			$(".processImgA").css({
+				'background-image': 'url(./images/web2-2/night.png)',
+			});F
 
 		});
+		$(".process-circle").click(function () {
+			$(".process-circle").css({
+				'background-color': 'var(--color-3)',
+			});
+			$(".process-circle2").css({
+				'background-color': '#ECECE7',
+			});
+			$(".process-circle3").css({
+				'background-color': '#ECECE7',
+			});
+			$(".processImgA").css({
+				'background-image': 'url(./images/web2-2/morning.png)',
+			});
+		});
+
+
+
+
+
+
+
+
+
+
+
 
 
 
