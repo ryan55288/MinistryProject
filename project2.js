@@ -542,6 +542,61 @@ $(function () {
 
 	////////////////特定區域操作////////////////////////
 	$(document).ready(function () {
+    var images = [
+      './images/web2-2/morning.png',
+      './images/web2-2/afternoon.png',
+      './images/web2-2/night.png',
+    ];
+    var currentIndex = 0;
+    var intervalDuration = 2000; // 2秒
+    
+    function changeBackground() {
+      $(".processImgA").css({
+        'background-image': 'url(' + images[currentIndex] + ')',
+      });
+      currentIndex = (currentIndex + 1) % images.length;
+      if (currentIndex === 0) { 
+        $(".process-circle").css({
+          'background-color': '#ECECE7',
+        });
+        $(".process-circle2").css({
+          'background-color': '#ECECE7',
+        });
+        $(".process-circle3").css({
+          'background-color': 'var(--color-3)',
+        });
+      }
+      else if (currentIndex === 1) {
+        $(".process-circle").css({
+          'background-color': 'var(--color-3)',
+        });
+        $(".process-circle2").css({
+          'background-color': '#ECECE7',
+        });
+        $(".process-circle3").css({
+          'background-color': '#ECECE7',
+        });
+      }
+      else if (currentIndex === 2) {
+        $(".process-circle").css({
+          'background-color': '#ECECE7',
+        });
+        $(".process-circle2").css({
+          'background-color': 'var(--color-3)',
+        });
+        $(".process-circle3").css({
+          'background-color': '#ECECE7',
+        });
+      }
+    }
+    
+    // 初始设置背景
+    changeBackground();
+    
+    // 每隔2秒切换背景
+    var intervalId = setInterval(changeBackground, intervalDuration);
+    // 如果需要停止轮播，可以使用以下代码：
+    // clearInterval(intervalId);
 		$(".process-circle2").click(function () {
 			$(".process-circle").css({
 				'background-color': '#ECECE7',
@@ -568,7 +623,7 @@ $(function () {
 			});
 			$(".processImgA").css({
 				'background-image': 'url(./images/web2-2/night.png)',
-			});F
+			});
 
 		});
 		$(".process-circle").click(function () {
