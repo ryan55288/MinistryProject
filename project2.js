@@ -539,6 +539,66 @@ $(function () {
 		});
 	});
 
+	////////////////遠傳電信操作////////////////////////
+
+	// var teleImages = [
+	// 	'./images/web2-2/morning.png',
+	// 	'./images/web2-2/afternoon.png',
+	// 	'./images/web2-2/night.png',
+	// ];
+	// var currentIndex = 0;
+	// var intervalDuration = 2000; // 2秒
+
+	// function changeBackground() {
+	// 	$(".processImgA").css({
+	// 		'background-image': 'url(' + teleImages[currentIndex] + ')',
+	// 		'transition': '0.5s',
+	// 	});
+	// 	currentIndex = (currentIndex + 1) % teleImages.length;
+	// 	if (currentIndex === 0) {
+	// 		$(".process-circle").css({
+	// 			'background-color': '#ECECE7',
+	// 		});
+	// 		$(".process-circle2").css({
+	// 			'background-color': '#ECECE7',
+	// 		});
+	// 		$(".process-circle3").css({
+	// 			'background-color': 'var(--color-3)',
+	// 			'transition': '0.5s ease-in-out',
+	// 		});
+	// 	} else if (currentIndex === 1) {
+	// 		$(".process-circle").css({
+	// 			'background-color': 'var(--color-3)',
+	// 			'transition': '0.5s ease-in-out',
+	// 		});
+	// 		$(".process-circle2").css({
+	// 			'background-color': '#ECECE7',
+	// 		});
+	// 		$(".process-circle3").css({
+	// 			'background-color': '#ECECE7',
+	// 		});
+	// 	} else if (currentIndex === 2) {
+	// 		$(".process-circle").css({
+	// 			'background-color': '#ECECE7',
+	// 		});
+	// 		$(".process-circle2").css({
+	// 			'background-color': 'var(--color-3)',
+	// 			'transition': '0.5s ease-in-out',
+	// 		});
+	// 		$(".process-circle3").css({
+	// 			'background-color': '#ECECE7',
+	// 		});
+	// 	}
+	// }
+	// 初始设置背景
+	// teletChangeBackground();
+
+	// 每隔2秒切换背景
+	// var intervalId = setInterval(teletChangeBackground, intervalDuration);
+	
+	// 停止轮播：
+	// clearInterval(intervalId);
+
 
 	////////////////特定區域操作////////////////////////
 	$(document).ready(function () {
@@ -568,8 +628,7 @@ $(function () {
 			});
 			$(".processImgA").css({
 				'background-image': 'url(./images/web2-2/night.png)',
-			});F
-
+			});
 		});
 		$(".process-circle").click(function () {
 			$(".process-circle").css({
@@ -585,92 +644,138 @@ $(function () {
 				'background-image': 'url(./images/web2-2/morning.png)',
 			});
 		});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		//中午
-		// $(".afternoon").click(function () {
-		// 	$(".processImg").addClass("processImg2");
-		// 	$(".processImg").removeClass("processImg3");
-		// 	$(".processImg").removeClass("processImg");
-
-
-		// 	$(".afternoon .bigClose").addClass("bigOpen");
-		// 	$(".afternoon .littleClose").addClass("littleOpen");
-		// 	$(".afternoon .bigClose").removeClass("bigClose");
-		// 	$(".afternoon .littleClose").removeClass("littleClose");
-
-		// 	$(".allLogo").removeClass("nightDraw");
-		// 	$(".allLogo").removeClass("morningDraw");
-		// 	$(".allLogo").addClass("afternoonDraw");
-
-		// 	$(".morning .bigOpen").addClass("bigClose");
-		// 	$(".morning .littleOpen").addClass("littleClose");
-		// 	$(".morning .bigOpen").removeClass("bigOpen");
-
-		// 	$(".night .bigOpen").addClass("bigClose");
-		// 	$(".night .littleOpen").addClass("littleClose");
-		// 	$(".night .bigOpen").removeClass("bigOpen");
-		// });
-		//晚上
-		// $(".night").click(function () {
-		// 	$(".processImg").addClass("processImg3");
-
-
-		// 	$(".night .bigClose").addClass("bigOpen");
-		// 	$(".night .littleClose").addClass("littleOpen");
-		// 	$(".night .bigClose").removeClass("bigClose");
-		// 	$(".night .littleClose").removeClass("littleClose");
-
-		// 	$(".allLogo").addClass("nightDraw");
-		// 	$(".allLogo").removeClass("morningDraw");
-		// 	$(".allLogo").removeClass("afternoonDraw");
-
-		// 	$(".morning .bigOpen").addClass("bigClose");
-		// 	$(".morning .littleOpen").addClass("littleClose");
-		// 	$(".morning .bigOpen").removeClass("bigOpen");
-
-		// 	$(".afternoon .bigOpen").addClass("bigClose");
-		// 	$(".afternoon .littleOpen").addClass("littleClose");
-		// 	$(".afternoon .bigOpen").removeClass("bigOpen");
-		// });
-		//早上
-		// $(".morning").click(function () {
-		// 	$(".processImg").addClass("processImg");
-		// 	$(".morning .bigClose").addClass("bigOpen");
-		// 	$(".morning .littleClose").addClass("littleOpen");
-		// 	$(".morning .bigClose").removeClass("bigClose");
-		// 	$(".morning .littleClose").removeClass("littleClose");
-
-		// 	$(".allLogo").addClass("morningDraw");
-		// 	$(".allLogo").removeClass("nightDraw");
-		// 	$(".allLogo").removeClass("afternoonDraw");
-
-		// 	$(".afternoon .bigOpen").addClass("bigClose");
-		// 	$(".afternoon .littleOpen").addClass("littleClose");
-		// 	$(".afternoon .bigOpen").removeClass("bigOpen");
-
-		// 	$(".night .bigOpen").addClass("bigClose");
-		// 	$(".night .littleOpen").addClass("littleClose");
-		// 	$(".night .bigOpen").removeClass("bigOpen");
-		// });
 	});
 
+	var images = [
+		'./images/web2-2/morning.png',
+		'./images/web2-2/afternoon.png',
+		'./images/web2-2/night.png',
+	];
+	var currentIndex = 0;
+	var intervalDuration = 2000; // 2秒
+
+	function changeBackground() {
+		$(".processImgA").css({
+			'background-image': 'url(' + images[currentIndex] + ')',
+			'transition': '0.5s',
+		});
+		currentIndex = (currentIndex + 1) % images.length;
+		if (currentIndex === 0) {
+			$(".process-circle").css({
+				'background-color': '#ECECE7',
+			});
+			$(".process-circle2").css({
+				'background-color': '#ECECE7',
+			});
+			$(".process-circle3").css({
+				'background-color': 'var(--color-3)',
+				'transition': '0.5s ease-in-out',
+			});
+		} else if (currentIndex === 1) {
+			$(".process-circle").css({
+				'background-color': 'var(--color-3)',
+				'transition': '0.5s ease-in-out',
+			});
+			$(".process-circle2").css({
+				'background-color': '#ECECE7',
+			});
+			$(".process-circle3").css({
+				'background-color': '#ECECE7',
+			});
+		} else if (currentIndex === 2) {
+			$(".process-circle").css({
+				'background-color': '#ECECE7',
+			});
+			$(".process-circle2").css({
+				'background-color': 'var(--color-3)',
+				'transition': '0.5s ease-in-out',
+			});
+			$(".process-circle3").css({
+				'background-color': '#ECECE7',
+			});
+		}
+	}
+	// 初始设置背景
+	changeBackground();
+
+	// 每隔2秒切换背景
+	var intervalId = setInterval(changeBackground, intervalDuration);
+	// 停止轮播：
+	// clearInterval(intervalId);
+
+	// const imgs = document.getElementById('imgs')
+	// const oneBtn = document.getElementById('.btn1')
+	// const twoBtn = document.getElementById('.btn2')
+	// const threeBtn = document.getElementById('.btn3')
+	// const img = document.querySelectorAll('#imgs img')
+	// let idx = 0
+
+	// // 每兩秒執行函式run一次
+	// let interval = setInterval(run, 2000)
+
+	// // idx+1，然後執行changeImage函式
+	// function run() {
+	// 	idx++
+	// 	changeImage()
+	// }
+
+	// // 比對idx和img陣列的長度，然後判斷要輸出什麼值來套用translateX屬性
+	// function changeImage() {
+	// 	// 由於array.length是從1開始計算，跟index的起始數字不同，因此img.length要 - 1
+	// 	if (idx > img.length - 1) {
+	// 		idx = 0
+	// 		// 避免prev按鈕行為讓idx小於零
+	// 	} else if (idx < 0) {
+	// 		idx = img.length - 1
+	// 	}
+	// 	// 從這行translateX可以判斷，idx最初必須為零，然後要顯示最後一張圖片，idx不能大於img.length
+	// 	imgs.style.transform = `translateX(${-idx * 810}px)`
+	// }
+
+	// // next按鈕行為，先改變圖片位置，兩秒後再重啟計時器。
+	// oneBtn.addEventListener('click', () => {
+	// 	idx++
+	// 	changeImage()
+	// 	resetInterval()
+	// })
+
+	// // prev按鈕行為
+	// twoBtn.addEventListener('click', () => {
+	// 	idx++
+	// 	changeImage()
+	// 	resetInterval()
+	// })
+	// threeBtn.addEventListener('click', () => {
+	// 	idx--
+	// 	changeImage()
+	// 	resetInterval()
+	// })
+
+	// // 重設計時器
+	// function resetInterval() {
+	// 	clearInterval(interval)
+	// 	interval = setInterval(run, 2000)
+	// }
+});
+
+$(".openMask").click(function () {
+	$(".mask").css({
+		'display': 'block',
+		'display': 'flex',
+		'transition': '0.5s',
+	});
+});
+
+$(".openMask").click(function () {
+	$("body").css({
+		'overflow': 'hidden',
+	});
+});
+$(".delete").click(function () {
+	$("body").css({
+		'overflow': 'auto',
+	});
+	$(".mask").css({
+		'display': 'none',
+	});
 });

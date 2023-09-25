@@ -8,12 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <link href="all.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css"> -->
     <link href="style4&6.css" rel="stylesheet" />
     <title>知識庫</title>
 </head>
 
 <body>
+    <div class="mask">
+        <div class="somedata">
+            <h3>身分驗證</h3>
+            <div>帳號</div>
+            <input type="text" placeholder="請輸入帳號">
+            <div>密碼</div>
+            <input type="text" placeholder="請輸入密碼">
+            <div class="forget">
+                <div>
+                    <a href="">忘記密碼</a>
+                </div>
+            </div>
+            <div class="delete">
+            </div>
+            <div class="button-box">
+                <button type="button" class="project-btn3"><span>立即登入</span></button>
+            </div>
+        </div>
+    </div>
     <header class="visual visual4">
         <div class="project6-titlebox">
             <p>DATASOURCE</p>
@@ -26,7 +45,8 @@
 
     <section class="project4-box-1 container-926">
         <div class="button-box">
-            <button type="button" class="project-btn" data-target="#login" data-toggle="modal"><span>前往使用</span></button>
+            <button type="button" class="project-btn openMask" data-target="#login" data-toggle="modal"
+                id="show-login"><span>前往使用</span></button>
         </div>
     </section>
 
@@ -64,10 +84,8 @@
             </ul>
         </div>
     </section>
-
-
     <!-- 登入model -->
-    <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false" tabindex="-1"
+    <!-- <div class="modal fade" id="login" data-backdrop="static" data-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -104,8 +122,10 @@
                 </div>
             </div>
         </div>
-    </div>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    </div> -->
+    <!-- <script src="./assets/js/bootstrap.bundle.min.js"></script> -->
+
+    <script src="./project2.js"></script>
 </body>
 
 </html>

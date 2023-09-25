@@ -150,14 +150,35 @@
     color: var(--color-1);
     text-align: center;
     font-weight: bold;
+    position: relative;
 }
 
-.project3-box-4 span {
+.project3-box-4 .whyStyle h3 {
+    position: relative;
+    z-index: 2;
+}
+
+.project3-box-4 h3 span {
+    position: relative;
+    z-index: 2;
     font-size: 36px;
-    color: var(--color-1);
-    text-align: center;
     font-weight: bold;
-    background: var(--color-2);
+}
+
+.project3-box-4 .whyStyle h3::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: var(--color-3);
+    width: 0px;
+    height: 50px;
+    top: 0;
+    transition: 0.8s;
+}
+
+.project3-box-4 .whyStyle h3:hover::before {
+    width: 185px;
+    transition: 0.7s;
 }
 
 .project3-box-4 .container-736 {
@@ -187,7 +208,7 @@
 }
 
 .project3-box-5 img {
-    width: 30%;
+    width: 20%;
     margin: auto;
     margin-top: 50px;
     padding-left: 15%;
@@ -680,9 +701,6 @@
 .project3-box-7 li .addressStyle3,
 .project3-box-7 li .addressStyle2,
 .project3-box-7 li .addressStyle1 {
-    color: var(--color-1);
-    font-size: 42px;
-    font-weight: bold;
     width: 100px;
     margin: auto;
 }
@@ -692,7 +710,7 @@
 }
 
 .project3-box-7 li .addressStyle3 {
-    width: 300px;
+    width: 80%;
 }
 
 .project3-box-7 li h4,
