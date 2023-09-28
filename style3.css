@@ -751,19 +751,9 @@
 
 
 .project3-box-7 li:nth-child(1):hover .addressStyle1::before {
-    width: 100%;
+    width: 90px;
     transition: 0.2s;
 }
-
-/* .project3-box-7 li:nth-child(1) .addressStyle1:hover::before {
-    width: 90px;
-    transition: 0.2s;
-} */
-
-/* .addressStyle1:hover::before {
-    width: 90px;
-    transition: 0.2s;
-} */
 
 .project3-box-7 li:nth-child(2):hover .addressStyle2::before {
     width: 225px;

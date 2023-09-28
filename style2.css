@@ -90,13 +90,13 @@
     color: var(--color-1);
 }
 
-.project2-box-3 h3 {
-    position: relative;
-}
-
 .project2-box-3 .cityStyle p {
     font-weight: bold;
     color: var(--color-1);
+}
+
+.project2-box-3 h3 {
+    position: relative;
 }
 
 .project2-box-3 h3 span {
@@ -159,14 +159,9 @@
     font-size: 52px;
 }
 
-.project2-box-5 span {
-    background-color: var(--color-3);
-}
-
 .project2-box-5 .images-box .vdieoAction {
     width: 100%;
 }
-
 
 .project2-box-5 .images-box {
     position: relative;
@@ -300,6 +295,7 @@
     margin-bottom: 130px;
     display: flex;
     justify-content: center;
+    padding: 0 80px;
 }
 
 .project2-box-72 .left-width,
@@ -356,11 +352,7 @@
     color: var(--color-1);
 }
 
-.project2-box-72,
-.project2-box-7 {
-    margin-top: 165px;
-    padding: 0 80px;
-}
+
 
 .project2-box-72 .fake div {
     color: var(--color-1);
@@ -812,7 +804,7 @@
     background-repeat: no-repeat;
     background-position:
         top 0 left 0,
-        top 0 right 0;
+        top 0 right -5px;
     background-size: auto 100%;
 }
 
@@ -1120,10 +1112,13 @@
     .project2-box-71 {
         flex-direction: column;
         margin-bottom: 15px;
+        margin-top: 65px;
+        padding: 0px 10px;
     }
 
+    .project2-box-72 .left-width,
     .project2-box-71 .left-width {
-        max-width: 100%;
+        width: 100%;
     }
 
     .project2-box-71 p {
@@ -1144,22 +1139,27 @@
         display: block;
     }
 
-    .project2-box-72 {
-        /* display: inline; */
-    }
-
     .project2-box-7-between {
         display: inline;
+    }
+
+    .project2-box-72 {
+        margin-top: 0;
     }
 
     .project2-box-72 p {
         font-weight: bold;
         color: var(--color-1);
+        margin-top: 20px;
     }
 
     .project2-box-72 .right-width {
         max-width: 70%;
         margin-top: 50px;
+    }
+
+    .project2-box-72 .right-width .right-between {
+        flex-direction: column;
     }
 
     .project2-box-72 img {
@@ -1170,26 +1170,26 @@
         display: block;
     }
 
-
-
-
-
-
-    /* .project2-box-7-between {
-        flex-direction: column;
+    .project2-box-72 .right-width .fake {
+        margin-left: -40px;
     }
 
-    .project2-box-7 .project2-box-7-between h3 {
-        line-height: 1.2;
-        letter-spacing: 0rem;
-        font-size: 5vw;
-        white-space: nowrap;
-        margin-bottom: 1vw;
+    .right-width .processImgA {
+        height: 250px;
+        top: 150px;
+        left: 50px;
     }
 
-    .project2-box-7 .project2-box-7-between div {
-        font-size: 3vw;
-    } */
+    .project2-box-7-between .process {
+        position: relative;
+        align-content: center;
+        width: 340px;
+        height: 5px;
+        background-color: rgb(231, 231, 231);
+        border-radius: 20px;
+        top: 90px;
+        left: 65px;
+    }
 
     .project2-box-8 .images {
         width: 100%;

@@ -595,7 +595,7 @@ $(function () {
 
 	// 每隔2秒切换背景
 	// var intervalId = setInterval(teletChangeBackground, intervalDuration);
-	
+
 	// 停止轮播：
 	// clearInterval(intervalId);
 
@@ -758,6 +758,7 @@ $(function () {
 	// }
 });
 
+///// PJ4&PJ6登入遮罩
 $(".openMask").click(function () {
 	$(".mask").css({
 		'display': 'block',
@@ -779,3 +780,4 @@ $(".delete").click(function () {
 		'display': 'none',
 	});
 });
+
