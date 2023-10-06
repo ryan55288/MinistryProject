@@ -401,10 +401,7 @@
     width: 20px;
     height: 20px;
     border-radius: 10px;
-<<<<<<< HEAD
     background-color: var(--color-3);
-=======
->>>>>>> fe5778b3a58efc31b5da6a192ef0386cd9c819b9
     background-color: #ECECE7;
     cursor: pointer;
 }
